@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ros2-vnc:
+    image: tiryoh/ros2-desktop-vnc:humble
+    container_name: ros2_sheep_vnc
+    ports:
+      - "6080:80"
+    volumes:
+      - .:/home/ubuntu/ros2_ws/src/sheep_patrol
+    shm_size: '512m'
+    environment:
+      - RESOLUTION=1280x800
+    restart: unless-stopped

@@ -1,0 +1,24 @@
+# ROS 2 构建生成目录
+build/
+install/
+log/
+*.log
+
+# 文档与课件素材（按要求排除）
+*.docx
+*.doc
+*.pdf
+*.html
+*.png
+*.jpg
+*.jpeg
+teacher.txt
+patrol_node_original.cpp
+
+# IDE 与操作系统配置
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
