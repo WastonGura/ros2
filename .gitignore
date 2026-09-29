@@ -13,6 +13,7 @@ log/
 *.jpg
 *.jpeg
 *.txt
+实验二*.md
 patrol_node_original.cpp
 
 # IDE 与操作系统配置
