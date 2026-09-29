@@ -12,7 +12,7 @@ log/
 *.png
 *.jpg
 *.jpeg
-teacher.txt
+*.txt
 patrol_node_original.cpp
 
 # IDE 与操作系统配置
